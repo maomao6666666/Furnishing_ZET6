@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>饮品选择</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnMilkTea">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>231</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>奶茶</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCoffee">
+    <property name="geometry">
+     <rect>
+      <x>359</x>
+      <y>290</y>
+      <width>231</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>咖啡</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnJuice">
+    <property name="geometry">
+     <rect>
+      <x>629</x>
+      <y>290</y>
+      <width>221</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>果汁</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMilkTeaImg">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>231</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/milk_tea.png);</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCoffeeImg">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>221</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/coffee.png);</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelJuiceImg">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>30</y>
+      <width>221</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/juice.png);</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

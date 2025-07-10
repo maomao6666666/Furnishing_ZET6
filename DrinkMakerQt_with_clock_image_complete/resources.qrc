@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/milk_tea.png</file>
+        <file>images/coffee.png</file>
+        <file>images/juice.png</file>
+    </qresource>
+</RCC>
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DrinkWindow</class>
+ <widget class="QWidget" name="DrinkWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>935</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>选择饮品</string>
+  </property>
+  <widget class="QLabel" name="labelImage">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxTemp">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>温度</string>
+   </property>
+   <widget class="QRadioButton" name="radioNormal">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>70</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>正常冰</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioLess">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>55</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>少冰</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioNo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>55</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>去冰</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxSugar">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>151</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>甜度</string>
+   </property>
+   <widget class="QRadioButton" name="radioFull">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>55</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>全糖</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioHalf">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>55</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>半糖</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioNone">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>55</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>无糖</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnConfirm">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>40</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始制作</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>639</x>
+     <y>100</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>841</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTime">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>460</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>预计制作时间：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelClock">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前时间：</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textHistory">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>259</y>
+     <width>841</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
